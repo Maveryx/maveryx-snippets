@@ -1,0 +1,15 @@
+{
+  "uuid": "ac1d6615-fb70-4102-b5cc-2a828ae92729",
+  "name": "GuiButton - click",
+  "description": "Create a new Maveryx GuiButton with click action",
+  "extraSearchTerms": [
+    "button"
+  ],
+  "tags": [
+    "maveryx"
+  ],
+  "code": "",
+  "location": "JAVA_STATEMENTS",
+  "filenameRestrictions": [],
+  "dependencies": []
+}
