@@ -1,0 +1,14 @@
+{
+  "uuid": "36e7a269-da87-4a9e-8d91-58b1908d5bde",
+  "name": "GuiButton",
+  "description": "click",
+  "extraSearchTerms": [
+    "button",
+    "pushbutton"
+  ],
+  "tags": [],
+  "code": "${imp:import(org.my.Klass)}\r\nfinal String ${text} \u003d \"${button_id}\";\r\nGuiButton ${button} \u003d new GuiButton(${text});\r\n${button}.click();${cursor}",
+  "location": "JAVA_STATEMENTS",
+  "filenameRestrictions": [],
+  "dependencies": []
+}

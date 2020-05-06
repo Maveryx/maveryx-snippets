@@ -1,0 +1,15 @@
+{
+  "uuid": "de6572a7-3a4a-4a98-9ca5-1fa542937902",
+  "name": "GuiButton",
+  "description": "isEnabled (inline)",
+  "extraSearchTerms": [
+    "is enabled",
+    "pushbutton",
+    "button"
+  ],
+  "tags": [],
+  "code": "${imp:import(org.my.Klass)}\r\n${staticImport:importStatic(\u0027org.junit.Assert.*\u0027)}\r\nassertTrue(\"button \" + \"${text}\" + \"is not enabled.\", new GuiButton(\"${text}\").isEnabled());",
+  "location": "JAVA_STATEMENTS",
+  "filenameRestrictions": [],
+  "dependencies": []
+}
