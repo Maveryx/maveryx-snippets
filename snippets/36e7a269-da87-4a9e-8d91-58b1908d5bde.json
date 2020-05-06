@@ -7,7 +7,7 @@
     "pushbutton"
   ],
   "tags": [],
-  "code": "${imp:import(org.my.Klass)}\r\nfinal String ${text} \u003d \"${button_id}\";\r\nGuiButton ${button} \u003d new GuiButton(${text});\r\n${button}.click();${cursor}",
+  "code": "${imp:import(com.maveryx.core.guiApi.GuiButton)}\r\n\r\nfinal String ${text} \u003d \"${button_id}\";\r\nGuiButton ${button} \u003d new GuiButton(${text});\r\n${button}.click();${cursor}",
   "location": "JAVA_STATEMENTS",
   "filenameRestrictions": [],
   "dependencies": []
