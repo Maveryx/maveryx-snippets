@@ -8,7 +8,7 @@
     "button"
   ],
   "tags": [],
-  "code": "${imp:import(org.my.Klass)}\r\n${staticImport:importStatic(\u0027org.junit.Assert.*\u0027)}\r\nassertTrue(\"button \" + \"${text}\" + \"is not enabled.\", new GuiButton(\"${text}\").isEnabled());",
+  "code": "${imp:import(com.maveryx.core.guiApi.GuiButton)}\r\n${staticImport:importStatic(\u0027org.junit.Assert.*\u0027)}\r\nassertTrue(\"button \" + \"${text}\" + \"is not enabled.\", new GuiButton(\"${text}\").isEnabled());",
   "location": "JAVA_STATEMENTS",
   "filenameRestrictions": [],
   "dependencies": []
